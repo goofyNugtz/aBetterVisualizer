@@ -1,0 +1,11 @@
+.bars,
+.bars:focus {
+    display: inline-block;
+    background-color: black;
+    margin: 3px;
+    width: 5px;
+    text-decoration: none;
+    color: transparent;
+    user-select: none;
+}
+

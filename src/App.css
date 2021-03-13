@@ -6,6 +6,11 @@
 }
 
 .Graph {
+  /* position: absolute; */
   background-color: orangered;
   grid-area: 2 / graph-start / -2 / graph-end;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: scale(1, -1);
 }

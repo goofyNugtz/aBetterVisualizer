@@ -20,8 +20,6 @@ class App extends Component {
     /* console.log(array); */
   }
 
-  
-  
   componentDidMount(){
     this.resetArray();
   }
