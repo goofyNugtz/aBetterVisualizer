@@ -1,0 +1,11 @@
+.App {
+  text-align: center;
+  display: grid;
+  grid-template-rows: 100px 150px 150px 250px 50px;
+  grid-template-columns: [main-start] 50px [left-margin graph-start] 1fr [graph-end options-start] 400px [options-end right-margin] 50px [main-end];
+}
+
+.Graph {
+  background-color: orangered;
+  grid-area: 2 / graph-start / -2 / graph-end;
+}
