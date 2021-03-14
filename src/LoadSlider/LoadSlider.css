@@ -1,0 +1,23 @@
+.range {
+    height: 100px;
+    width: 100%;
+    margin: auto auto;
+    background-color: #fff;
+}
+
+.field {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid red;
+}
+
+input {
+    appearance: none;
+    height: 3px;
+    width: 200px;
+    background: #ddd;
+    outline: none;
+    border: none;
+}

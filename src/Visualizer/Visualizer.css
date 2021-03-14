@@ -1,9 +1,8 @@
-.bars,
-.bars:focus {
+.bars {
     display: inline-block;
-    background-color: black;
-    margin: 3px;
-    width: 5px;
+    background-color: #87C232;
+    margin: 0 3px;
+    width: 3px;
     text-decoration: none;
     color: transparent;
     user-select: none;
