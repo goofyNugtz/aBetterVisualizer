@@ -1,0 +1,7 @@
+KNOWN BUGS
+
+1.  In Selection sort, The unsorted array also turns green.
+2.  More than one sorting methods can be called simultaneously on the array being processed/sorted.
+3.  Animation/Transition Speed is not optimized.
+4.  Not very responsive.
+5.  Postioning of ".sizeOfArray()" isn't proper.

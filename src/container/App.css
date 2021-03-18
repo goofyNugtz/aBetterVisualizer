@@ -1,0 +1,113 @@
+/*
+TODO:
+replace px with rem
+*/
+
+body {
+  background-color: #212121;
+}
+
+.App {
+  text-align: center;
+  display: grid;
+  grid-template-rows: 10vh 25vh 25vh 25vh 1vh;
+  grid-template-columns: [main-start] 2vw [left-margin graph-start] 1fr [graph-end options-start] 25vw [options-end right-margin] 2vw [main-end];
+  grid-gap: 1rem;
+}
+
+.logo {
+  grid-area: 1 / graph-start / 2 / graph-end;
+  text-align: left;
+  font-family: 'Poppins';
+  font-weight: 700;
+  font-size: 30px;
+  color: white;
+  /* display: flex; */
+  align-items: center;
+  margin: 1.2rem 2rem;
+  line-height: 1.5rem;
+}
+
+.heading-main {
+  display: block;
+  letter-spacing: .1rem;
+}
+
+.heading-sub {
+  display: block;
+  font-size: 1rem;
+  letter-spacing: .5rem;
+}
+
+.Graph {
+  /* position: absolute; */
+  background-color: rgba(255, 255, 255, 0.05);
+  grid-area: 2 / graph-start / -2 / graph-end;
+  display: flex;
+  padding-bottom: 2.5rem;
+  border-radius: 1rem;
+  /* align-items: flex-start; */
+  justify-content: center;
+  transform: scale(1, -1);
+  overflow: hidden;
+}
+
+.Load {
+  grid-area: 2 / options-start / 3 / options-end;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1rem;
+  overflow: hidden;
+  background-color: rgba(65, 105, 225, 0.1);
+}
+
+.Algorithm {
+  grid-area: 3 / options-start / 4 / options-end;
+  border-radius: 1rem;
+  overflow: hidden;
+  /* display: flex; */
+  background-color: rgba(137, 43, 226, 0.1);
+}
+
+.algo {
+  margin-top: 1.5rem;
+}
+
+.algo-title {
+  font-size: 3vw;
+  font-family: 'Poppins';
+  color: rgba(255, 255, 255, 0.2);
+  font-weight: 500;
+}
+
+.Algorithm button {
+  font-family: 'Poppins';
+  font-weight: 500;
+  padding: 5px 10px;
+  margin: 1vh .5vw;
+  appearance: none;
+  border: 0;
+  outline: 0;
+  /* height: 2rem;
+  width: 6.25rem; */
+  border-radius: 2.5rem;
+  background: rgba(65, 105, 225, 0.75);
+  color: white;
+  transition: all 0.2s;
+}
+
+.Algorithm button:hover{
+  background: rgba(65, 105, 225, 1);
+  color: white;
+}
+.Algorithm button:active{
+  background: white;
+  color: royalblue;
+}
+
+.Speed {
+  grid-area: 4 / options-start / 5 / options-end;
+  border-radius: 1rem;
+  background-color: rgba(135, 207, 235, .1);
+}
