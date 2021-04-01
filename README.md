@@ -1,6 +1,6 @@
 This Project is reverse engineered from [Clément Mihailescu's](https://github.com/clementmihailescu) [Sorting Visualizer](https://github.com/clementmihailescu/Sorting-Visualizer). 
 
-# Installation
+## Installation
 Clone repo
 Install dependencies 
 ### `npm install`
