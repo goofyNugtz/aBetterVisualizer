@@ -3,6 +3,11 @@ This Project is reverse engineered from [Clément Mihailescu's](https://github.c
 ## Installation
 Clone repo
 Install dependencies 
-```npm install```
+```bash
+npm install
+```
+
 Run the development Server
-```npm start```
+```bash
+npm start
+```
